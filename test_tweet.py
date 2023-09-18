@@ -1,5 +1,5 @@
 '''
-Author: Sri Charan Reddy
+Author: Sai Kiran Kammari
 Contents: This file has create and delete twitter APIs
 '''
 

@@ -1,5 +1,5 @@
 '''
-Author: Sri Charan Reddy
+Author: Sri Charan Reddy, Mahek Virani
 Contents: This file has create and delete tweet APIs
 '''
 
@@ -20,11 +20,19 @@ client = tweepy.Client(
     access_token_secret=config.ACCESS_TOKEN_SECRET,
 )
 
+'''
+Author: Sri Charan Reddy
+Contents: Routes to the home html content
+'''
 @app.route("/")
 def index():
     print(tweets)
     return render_template("home.html", tweets=tweets)
 
+'''
+Author: Sri Charan Reddy
+Contents:  This API creates the tweet based on request { 'tweetText' : 'user input'}
+'''
 @app.route("/create_tweet", methods=["POST"])
 def create_tweet():
     text = request.form.get("tweetText")
@@ -36,6 +44,10 @@ def create_tweet():
     print("Tweet created with message: ", text)
     return redirect(url_for("index"))
 
+'''
+Author: Mahek Virani
+Contents: This API deletes the tweet with {tweet_id}
+'''
 @app.route("/delete_tweet/<tweet_id>", methods=["POST"])
 def delete_tweet(tweet_id):
     response = client.delete_tweet(id=tweet_id)
