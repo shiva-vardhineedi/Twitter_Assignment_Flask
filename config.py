@@ -1,3 +1,8 @@
+'''
+Author: Sri Charan Reddy, Shiva, Mahek, Sai Kiran
+This file has all keys and secret tokens
+'''
+
 API_KEY = 'uPEwdlyTwFDwSABxroLgwT21O'
 API_SECRET = 'mfEQQDTvYVr0aOU5ubvYKHjlhy1Xb2ctdqzNqUzYzANs9IZwYp'
 ACCESS_TOKEN = '1702804094749155328-iN0NrN15cQeZOY5EJgQ8UFpFrjw8Sd'

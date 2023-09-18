@@ -1,6 +1,11 @@
+'''
+Author: Sri Charan Reddy
+Contents: This file has create and delete twitter APIs
+'''
+
 import unittest
 from unittest.mock import  patch
-import tweet  # Import your Flask app module
+import tweet
 
 class TestTweetApp(unittest.TestCase):
 
