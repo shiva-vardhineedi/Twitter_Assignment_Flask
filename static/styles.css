@@ -1,0 +1,231 @@
+/* Reset some default styles */
+* {
+   padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color similar to Twitter */
+body {
+    background-color: #f5f8fa;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    /*margin-left: 20%;*/
+    /*margin-top: 7%;*/
+}
+
+#tweetSubmit {
+    display: inline-block;
+    width: 100%;
+    margin-left: 0;
+}
+
+/* Style the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the Twitter logo and heading */
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1da1f2;
+    margin-bottom: 20px;
+}
+
+/* Style the tweet form */
+.tweet-form {
+    margin-bottom: 20px;
+}
+
+#tweetText {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    resize: none;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1da1f2;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style the tweet feed */
+.tweet-feed h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+ul#tweetList {
+    list-style-type: none;
+    width: 86%;
+    position: relative;
+    /* top: -33%; */
+    overflow-y: scroll;
+}
+
+ul#tweetList li {
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Style delete button */
+form {
+    display: inline-block;
+}
+
+#tweetTextList {
+    margin-right: 140px;
+}
+
+button[type="submit"] {
+    background-color: #e1e8ed;
+    color: #1da1f2;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+
+body {
+  /*background: #e6ecf0;*/
+  font-family: 'Asap', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+img {
+  max-width:100%;
+}
+.avator {
+  border-radius:100px;
+  width:48px;
+  margin-right: 15px;
+}
+
+
+.tweet-wrap {
+  max-width:490px;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius:3px;
+  padding: 30px;
+  border-bottom: 1px solid #e6ecf0;
+  border-top: 1px solid #e6ecf0;
+}
+
+.tweet-header {
+  display: flex;
+  align-items:flex-start;
+  font-size:14px;
+}
+.tweet-header-info {
+  font-weight:bold;
+}
+.tweet-header-info span {
+  color:#657786;
+  font-weight:normal;
+  margin-left: 5px;
+}
+.tweet-header-info p {
+  font-weight:normal;
+  margin-top: 5px;
+
+}
+.tweet-img-wrap {
+  padding-left: 60px;
+}
+
+.tweet-info-counts {
+  display: flex;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.tweet-info-counts div {
+  display: flex;
+  margin-right: 20px;
+}
+.tweet-info-counts div svg {
+  color:#657786;
+  margin-right: 10px;
+}
+@media screen and (max-width:430px){
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .tweet-header {
+    flex-direction:column;
+  }
+  .tweet-header img {
+    margin-bottom: 20px;
+  }
+  .tweet-header-info p {
+    margin-bottom: 30px;
+  }
+  .tweet-img-wrap {
+    padding-left: 0;
+  }
+  .tweet-info-counts {
+  display: flex;
+  margin-left: 0;
+}
+.tweet-info-counts div {
+  margin-right: 10px;
+}
+}
+
+#Tweet-section {
+       width: 45%;
+    display: grid;
+    height: 50vw;
+    background-image: url(https://images.wondershare.com/repairit/aticle/2021/08/twitter-header-photo-issues-1.jpg);
+    /* background-repeat-x: no-repeat; */
+    background-position: top;
+    background-repeat-y: no-repeat;
+    background-color: #1da1f2;
+    margin: 30px;
+}
+
+#history-section {
+    display: grid;
+    position: absolute;
+    top: 0;
+    left: 55%;
+    /* max-width: 50%; */
+    height: 50vw;
+}
+
+#tweetForm {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50%;
+}
